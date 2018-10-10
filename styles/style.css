@@ -6,6 +6,11 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     background-color: #e8e8e8;
+    color: #151515;
+}
+
+p > b {
+    color: #000000;
 }
 
 .wrapper {
@@ -90,9 +95,9 @@ body {
 }
 
 a, a:visited, a:active {
-    color: #a7a7a7;
+    color: #777777;
 }
 
 a:hover {
-    color: #6e6e6e;
+    color: #a5a5a5;
 }
