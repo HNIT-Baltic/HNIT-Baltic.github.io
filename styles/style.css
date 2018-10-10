@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: #e8e8e8;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-width: 500px;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+.content p {
+    line-height: 1.8;
+}
+
+.content .curve { 
+    width: 250px;
+    height: auto;
+    min-width: 150px;
+    float: left;
+    margin-right:2rem; 
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+.mini-footer {
+    height: 25px;
+    padding: 100px 50px 20px 50px;
+}
+
+.mini-footer img {
+    width: 125px;
+}
+
+.small-header {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 8em;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.links {
+    display: flex;
+    justify-items: stretch;
+    flex-wrap: wrap;
+}
+
+.links > div {
+    min-width: 300px;
+}
+
+.link-menu {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.qr-code-container {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.qr-code img {
+    width: 250px;
+}
+
+.qr-link {
+    text-align: center;
+}
+
+a, a:visited, a:active {
+    color: #a7a7a7;
+}
+
+a:hover {
+    color: #6e6e6e;
+}
