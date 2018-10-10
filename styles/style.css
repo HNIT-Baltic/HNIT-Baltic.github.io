@@ -32,6 +32,10 @@ p > b {
     padding: 20px 50px;
 }
 
+.content ul li {
+    line-height: 1.8;
+}
+
 .content p {
     line-height: 1.8;
 }
@@ -50,6 +54,11 @@ p > b {
 .mini-footer {
     height: 25px;
     padding: 100px 50px 50px 50px;
+    text-align: center;
+}
+
+.mini-footer a:hover {
+    opacity: 0.6;
 }
 
 .mini-footer img {
@@ -71,6 +80,7 @@ p > b {
     flex-wrap: wrap;
     border: solid 1px #e2e2e2;
     padding: 1% 4% 2%;
+    margin-top: 40px;
 }
 
 .links > div {
