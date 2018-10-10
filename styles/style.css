@@ -69,6 +69,8 @@ p > b {
     display: flex;
     justify-items: stretch;
     flex-wrap: wrap;
+    border: solid 1px #e2e2e2;
+    padding: 1% 4% 2%;
 }
 
 .links > div {
@@ -78,6 +80,10 @@ p > b {
 .link-menu {
     font-weight: bold;
     flex-grow: 1;
+}
+
+.link-menu p {
+    text-align: center;
 }
 
 .qr-code-container {
